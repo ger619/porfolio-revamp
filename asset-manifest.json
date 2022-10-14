@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/https%20://ger619.github.io/porfolio-revamp/static/css/main.61a3eaed.css",
+    "main.js": "/https%20://ger619.github.io/porfolio-revamp/static/js/main.aafcaec7.js",
+    "static/media/Roboto-Regular.ttf": "/https%20://ger619.github.io/porfolio-revamp/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/CoolveticaRg-Regular.woff2": "/https%20://ger619.github.io/porfolio-revamp/static/media/CoolveticaRg-Regular.7838d1d1b17982780b8f.woff2",
+    "static/media/LaBelleAurore-Regular.ttf": "/https%20://ger619.github.io/porfolio-revamp/static/media/LaBelleAurore-Regular.bc43b15661f3e942b3f6.ttf",
+    "static/media/logo-ger.png": "/https%20://ger619.github.io/porfolio-revamp/static/media/logo-ger.c19a91d7b6d09d9a9999.png",
+    "index.html": "/https%20://ger619.github.io/porfolio-revamp/index.html",
+    "main.61a3eaed.css.map": "/https%20://ger619.github.io/porfolio-revamp/static/css/main.61a3eaed.css.map",
+    "main.aafcaec7.js.map": "/https%20://ger619.github.io/porfolio-revamp/static/js/main.aafcaec7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61a3eaed.css",
+    "static/js/main.aafcaec7.js"
+  ]
+}
