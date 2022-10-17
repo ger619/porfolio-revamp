@@ -6,7 +6,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-import LogoGer from '../../assets/images/logo-ger.png';
+import LogoGer from '../../assets/images/Abolger.png';
 
 const Sidebar = () => (
   <div className="nav-bar">
