@@ -11,16 +11,13 @@ const Contact = () => (
           If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it. However if you have any questions, please feel free to contact me.
         </p>
         <div className="contact-form">
-          <form>
+          <form action="https://formspree.io/f/xpzbqzab" id="form-email" method="post">
             <ul>
               <li className="half">
                 <input type="text" name="name" placeholder="Name" required />
               </li>
               <li className="half">
                 <input type="email" name="email" placeholder="Email" required />
-              </li>
-              <li>
-                <input type="text" name="subject" placeholder="Subject" required />
               </li>
               <li>
                 <textarea name="message" placeholder="Message" required />
