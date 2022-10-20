@@ -19,8 +19,6 @@ const About = () => (
         <p>Currently, I recently completed a full stack course at Microverse, an online training school where I code 8 hours a day remotely with other developers and have learned Ruby, HTML/CSS, JavaScript, communication skills, and teamwork.</p>
         {/* eslint-disable-next-line max-len */}
         <p>I have also worked as a trainer, where I taught young girls from underprivileged societies HTML and CSS and life skills. This has enabled me to understand the importance of giving back as its core to your organization’s policies.</p>
-        {/* eslint-disable-next-line max-len */}
-        <p>I would like to schedule a zoom call for us to be able to discuss this further.</p>
       </div>
 
       <div className="stage-cube-cont">
