@@ -1,9 +1,11 @@
 .flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 200px;
   height: 200px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  display: inline-block;
+    margin: 10px;
 }
 
 /* This container is needed to position the front and back side */
@@ -41,4 +43,22 @@
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+}
+
+.btn-primary {
+  color: #225a71;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid #ffffff;
+  margin-top: 25px;
+  animation: fadeIn 1s 1.8s backwards;
+  white-space: nowrap;
+  &:hover{
+    background: #ffffff;
+    color: #225a71;
+  }
 }
