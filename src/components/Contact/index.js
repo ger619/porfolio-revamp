@@ -1,5 +1,8 @@
 import './index.scss';
 import Loader from 'react-loaders';
+import {
+  MapContainer, Marker, Popup, TileLayer,
+} from 'react-leaflet';
 
 const Contact = () => (
   <>
@@ -29,11 +32,27 @@ const Contact = () => (
           </form>
         </div>
       </div>
+      <div className="info-map">
+        David Ger
+        <br />
+        Kenya
+        <br />
+        Embakasi East, Nairobi
+        <br />
+        <span>abolger254@gmail.com</span>
+      </div>
+      <div className="map-wrap">
+        <MapContainer center={[-1.2764, 36.9580]} zoom={15}>
+          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <Marker position={[-1.2764, 36.9580]}>
+            <Popup>Abol Ger City</Popup>
+          </Marker>
+        </MapContainer>
+      </div>
 
     </div>
     <Loader type="pacman" />
   </>
 
 );
-
 export default Contact;
