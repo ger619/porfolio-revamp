@@ -39,6 +39,7 @@ const Contact = () => (
         <br />
         Embakasi East, Nairobi
         <br />
+        <span>+254 701 450 691</span>
         <span>abolger254@gmail.com</span>
       </div>
       <div className="map-wrap">
