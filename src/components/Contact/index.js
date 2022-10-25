@@ -46,7 +46,8 @@ const Contact = () => (
         <MapContainer center={[-1.2764, 36.9580]} zoom={15}>
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <Marker position={[-1.2764, 36.9580]}>
-            <Popup>Abol Ger City</Popup>
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            <Popup>Abol's house. Coffee and snacks available</Popup>
           </Marker>
         </MapContainer>
       </div>
