@@ -20,7 +20,7 @@ const Gallery = () => (
             </div>
             <div className="flip-card-back">
               <h2>Ruby on Rails Project</h2>
-              <p>Bank App using Ruby on Rails</p>
+              <p>Bank App Ruby on Rails</p>
 
               <a target="_blank" rel="noreferrer" href="https://tomb-stone.herokuapp.com/users/sign_in">
                 <button type="button" className="btn btn-primary">
@@ -39,16 +39,11 @@ const Gallery = () => (
             <div className="flip-card-back">
               <h2>ReactJs API consumption</h2>
               <p>Crypto consumption using React and Redux</p>
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href = 'https://deploy-preview-1--storied-cobbler-ece3f1.netlify.app/';
-                }}
-                type="button"
-                className="btn btn-primary"
-              >
-                React Project
-              </button>
+              <a target="_blank" rel="noreferrer" href="https://deploy-preview-1--storied-cobbler-ece3f1.netlify.app/">
+                <button type="button" className="btn btn-primary">
+                  Rails Project
+                </button>
+              </a>
             </div>
           </div>
         </div>
