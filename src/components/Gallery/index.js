@@ -1,17 +1,15 @@
 import './index.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faReact, faHtml5, faGitAlt, faJsSquare, faCss3,
-} from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
 import RailsLogo from '../../assets/images/rails_logo.png';
 import ReactLogo from '../../assets/images/reactjs.png';
+import Webpack from '../../assets/images/jsweb.png';
+import ReactRails from '../../assets/images/railsreact.png';
 
 const Gallery = () => (
   <>
 
     <div className="container gallery-page">
-      <div className="text-zone">
+      <div className="gallery-zone">
         <h1>Gallery</h1>
         <div className="flip-card">
           <div className="flip-card-inner">
@@ -47,30 +45,42 @@ const Gallery = () => (
             </div>
           </div>
         </div>
-      </div>
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={Webpack} alt="logo" width="200px" />
+            </div>
+            <div className="flip-card-back">
+              <h2>Vanilla JS Project</h2>
+              <p>A Hotel Menu</p>
 
-      <div className="stage-cube-cont">
-        <div className="cubespinner">
-          <div className="face1">
-            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-          </div>
-          <div className="face2">
-            <FontAwesomeIcon icon={faHtml5} color="#5ED4F4" />
-          </div>
-          <div className="face3">
-            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-          </div>
-          <div className="face4">
-            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-          </div>
-          <div className="face5">
-            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-          </div>
-          <div className="face6">
-            <FontAwesomeIcon icon={faCss3} color="#EC4D28" />
+              <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
+                <button type="button" className="btn btn-primary">
+                  Vanilla JS
+                </button>
+              </a>
+
+            </div>
           </div>
         </div>
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={ReactRails} alt="logo" width="200px" />
+            </div>
+            <div className="flip-card-back">
+              <h2>Bike Shop</h2>
+              <p>Rails API, React & Redux</p>
 
+              <a target="_blank" rel="noreferrer" href="https://bikes-cah.herokuapp.com/">
+                <button type="button" className="btn btn-primary">
+                  React-Rails
+                </button>
+              </a>
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <Loader type="pacman" />
