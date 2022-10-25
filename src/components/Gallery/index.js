@@ -5,14 +5,14 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
 import RailsLogo from '../../assets/images/rails_logo.png';
-import ReactLogo from '../../assets/images/react.png';
+import ReactLogo from '../../assets/images/reactjs.png';
 
 const Gallery = () => (
   <>
 
     <div className="container gallery-page">
       <div className="text-zone">
-        <h1>Portfolio Gallery</h1>
+        <h1>Gallery</h1>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
@@ -21,16 +21,13 @@ const Gallery = () => (
             <div className="flip-card-back">
               <h2>Ruby on Rails Project</h2>
               <p>Bank App using Ruby on Rails</p>
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href = 'https://tomb-stone.herokuapp.com/users/sign_in';
-                }}
-                type="button"
-                className="btn btn-primary"
-              >
-                Rails Project
-              </button>
+
+              <a target="_blank" rel="noreferrer" href="https://tomb-stone.herokuapp.com/users/sign_in">
+                <button type="button" className="btn btn-primary">
+                  Rails Project
+                </button>
+              </a>
+
             </div>
           </div>
         </div>
