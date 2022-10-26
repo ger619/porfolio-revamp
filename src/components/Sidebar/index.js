@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHome, faUser, faEnvelope, faBriefcase,
 } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {
+  faLinkedin, faGithub, faTwitter, faAngellist,
+} from '@fortawesome/free-brands-svg-icons';
 
 import LogoGer from '../../assets/images/Abolger.png';
 
@@ -31,6 +33,11 @@ const Sidebar = () => (
       <li>
         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/abolger/">
           <FontAwesomeIcon icon={faLinkedin} color="#acd0e0" />
+        </a>
+      </li>
+      <li>
+        <a target="_blank" rel="noreferrer" href="https://angel.co/u/david-abol-ger">
+          <FontAwesomeIcon icon={faAngellist} color="#acd0e0" />
         </a>
       </li>
       <li>
