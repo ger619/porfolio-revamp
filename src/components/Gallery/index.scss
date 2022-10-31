@@ -1,6 +1,6 @@
 .card{
   display: grid;
-  grid-template-columns: 300px;
+  grid-template-columns: 280px;
   #grid-template-rows: 210px 210px 80px;
   grid-template-areas:
     "image"
@@ -10,6 +10,10 @@
   background: #e6e6e6;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+.gallery-grid{
+  display: flex;
+  column-gap: 12px;
 }
 .card-image{
   grid-area: image;
@@ -40,7 +44,7 @@ h2, h3{
 .flat-button{
   background: #225a71;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: 4px;
   font-family: sans-serif;

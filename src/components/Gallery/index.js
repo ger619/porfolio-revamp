@@ -18,24 +18,86 @@ const Gallery = () => (
     <div className="container gallery-page">
       <div className="gallery-zone">
         <h1>Gallery</h1>
-        <div className="card">
-          <div>
-            <img className="card-image" src={MenuLogo} alt="logo" width="200px" />
+        <div className="gallery-grid">
+          <div className="card">
+            <div>
+              <img className="card-image" src={MenuLogo} alt="logo" width="200px" />
+            </div>
+            <div className="card-text">
+              <h2>A Hotel Menu</h2>
+              <h3>A hotel menu built with Webpack/Vanillajs, HTML, CSS and we consume an API </h3>
+              <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
+                <button type="button" className="flat-button">See Live</button>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/Lusindiso/Javascript-Capstone">
+                <button type="button" className="flat-button">See Source</button>
+              </a>
+            </div>
+            <div className="card-stats">
+              <img src={Webpack} alt="webpack" height="72px" />
+              <img src={HTML5} alt="html 5" height="72px" />
+              <img src={CSS} alt="webpack" height="72px" />
+            </div>
           </div>
-          <div className="card-text">
-            <h2>A Hotel Menu</h2>
-            <h3>A hotel menu built with Webpack/Vanillajs, HTML, CSS and we consume an API </h3>
-            <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
-              <button type="button" className="flat-button">See Live</button>
-            </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/Lusindiso/Javascript-Capstone">
-              <button type="button" className="flat-button">See Source</button>
-            </a>
+          <div className="card">
+            <div>
+              <img className="card-image" src={MenuLogo} alt="logo" width="200px" />
+            </div>
+            <div className="card-text">
+              <h2>A Hotel Menu</h2>
+              <h3>A hotel menu built with Webpack/Vanillajs, HTML, CSS and we consume an API </h3>
+              <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
+                <button type="button" className="flat-button">See Live</button>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/Lusindiso/Javascript-Capstone">
+                <button type="button" className="flat-button">See Source</button>
+              </a>
+            </div>
+            <div className="card-stats">
+              <img src={Webpack} alt="webpack" height="72px" />
+              <img src={HTML5} alt="html 5" height="72px" />
+              <img src={CSS} alt="webpack" height="72px" />
+            </div>
           </div>
-          <div className="card-stats">
-            <img src={Webpack} alt="webpack" height="72px" />
-            <img src={HTML5} alt="html 5" height="72px" />
-            <img src={CSS} alt="webpack" height="72px" />
+          <div className="card">
+            <div>
+              <img className="card-image" src={MenuLogo} alt="logo" width="200px" />
+            </div>
+            <div className="card-text">
+              <h2>A Hotel Menu</h2>
+              <h3>A hotel menu built with Webpack/Vanillajs, HTML, CSS and we consume an API </h3>
+              <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
+                <button type="button" className="flat-button">See Live</button>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/Lusindiso/Javascript-Capstone">
+                <button type="button" className="flat-button">See Source</button>
+              </a>
+            </div>
+            <div className="card-stats">
+              <img src={Webpack} alt="webpack" height="72px" />
+              <img src={HTML5} alt="html 5" height="72px" />
+              <img src={CSS} alt="webpack" height="72px" />
+            </div>
+          </div>
+          <div className="card">
+            <div>
+              <img className="card-image" src={MenuLogo} alt="logo" width="200px" />
+            </div>
+            <div className="card-text">
+              <h2>A Hotel Menu</h2>
+              <h3>A hotel menu built with Webpack/Vanillajs, HTML, CSS and we consume an API </h3>
+              <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
+                <button type="button" className="flat-button">See Live</button>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/Lusindiso/Javascript-Capstone">
+                <button type="button" className="flat-button">See Source</button>
+              </a>
+            </div>
+            <div className="card-stats">
+              <img src={Webpack} alt="webpack" height="72px" />
+              <img src={HTML5} alt="html 5" height="72px" />
+              <img src={CSS} alt="webpack" height="72px" />
+            </div>
           </div>
         </div>
       </div>
