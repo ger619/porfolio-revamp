@@ -17,7 +17,7 @@ const Home = () => (
           <br />
           Fullstack Developer
         </h1>
-        <h2> FrontEnd Developer (React)/ BackEnd Developer(Ruby on Rails), Social Engineer  </h2>
+        <h2> FrontEnd Developer (React)/ BackEnd Developer (Ruby on Rails)</h2>
         <Link to="/contact" className="flat-button">CONTACT ME</Link>
       </div>
       <Logo />

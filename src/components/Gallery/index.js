@@ -1,9 +1,16 @@
 import './index.scss';
 import Loader from 'react-loaders';
-import RailsLogo from '../../assets/images/rails_logo.png';
-import ReactLogo from '../../assets/images/reactjs.png';
+import MenuLogo from '../../assets/images/menu-logo.png';
+import HTML5 from '../../assets/images/HTML5_logo.png';
+import CSS from '../../assets/images/css_logo.png';
+
+// import ReactLogo from '../../assets/images/reactjs.png';
 import Webpack from '../../assets/images/jsweb.png';
-import ReactRails from '../../assets/images/railsreact.png';
+// import ReactRails from '../../assets/images/railsreact.png';
+//              <a target="_blank" rel="noreferrer" href="https://tomb-stone.herokuapp.com/users/sign_in">
+//  <a target="_blank" rel="noreferrer" href="https://deploy-preview-1--storied-cobbler-ece3f1.netlify.app/">
+// <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
+// <a target="_blank" rel="noreferrer" href="https://bikes-cah.herokuapp.com/">
 
 const Gallery = () => (
   <>
@@ -11,74 +18,24 @@ const Gallery = () => (
     <div className="container gallery-page">
       <div className="gallery-zone">
         <h1>Gallery</h1>
-        <div className="flip-card">
-          <div className="flip-card-inner">
-            <div className="flip-card-front">
-              <img src={RailsLogo} alt="logo" width="200px" />
-            </div>
-            <div className="flip-card-back">
-              <h2>Ruby on Rails Project</h2>
-              <p>Bank App Ruby on Rails</p>
-
-              <a target="_blank" rel="noreferrer" href="https://tomb-stone.herokuapp.com/users/sign_in">
-                <button type="button" className="btn btn-primary">
-                  Rails Project
-                </button>
-              </a>
-
-            </div>
+        <div className="card">
+          <div>
+            <img className="card-image" src={MenuLogo} alt="logo" width="200px" />
           </div>
-        </div>
-        <div className="flip-card">
-          <div className="flip-card-inner">
-            <div className="flip-card-front">
-              <img src={ReactLogo} alt="logo" width="200px" />
-            </div>
-            <div className="flip-card-back">
-              <h2>ReactJs API consumption</h2>
-              <p>Crypto consumption using React and Redux</p>
-              <a target="_blank" rel="noreferrer" href="https://deploy-preview-1--storied-cobbler-ece3f1.netlify.app/">
-                <button type="button" className="btn btn-primary">
-                  Rails Project
-                </button>
-              </a>
-            </div>
+          <div className="card-text">
+            <h2>A Hotel Menu</h2>
+            <h3>A hotel menu built with Webpack/Vanillajs, HTML, CSS and we consume an API </h3>
+            <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
+              <button type="button" className="flat-button">See Live</button>
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/Lusindiso/Javascript-Capstone">
+              <button type="button" className="flat-button">See Source</button>
+            </a>
           </div>
-        </div>
-        <div className="flip-card">
-          <div className="flip-card-inner">
-            <div className="flip-card-front">
-              <img src={Webpack} alt="logo" width="200px" />
-            </div>
-            <div className="flip-card-back">
-              <h2>Vanilla JS Project</h2>
-              <p>A Hotel Menu</p>
-
-              <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
-                <button type="button" className="btn btn-primary">
-                  Vanilla JS
-                </button>
-              </a>
-
-            </div>
-          </div>
-        </div>
-        <div className="flip-card">
-          <div className="flip-card-inner">
-            <div className="flip-card-front">
-              <img src={ReactRails} alt="logo" width="200px" />
-            </div>
-            <div className="flip-card-back">
-              <h2>Bike Shop</h2>
-              <p>Rails API, React & Redux</p>
-
-              <a target="_blank" rel="noreferrer" href="https://bikes-cah.herokuapp.com/">
-                <button type="button" className="btn btn-primary">
-                  React-Rails
-                </button>
-              </a>
-
-            </div>
+          <div className="card-stats">
+            <img src={Webpack} alt="webpack" height="72px" />
+            <img src={HTML5} alt="html 5" height="72px" />
+            <img src={CSS} alt="webpack" height="72px" />
           </div>
         </div>
       </div>
