@@ -7,9 +7,9 @@ import Coin from '../../assets/images/coin.png';
 import Webpack from '../../assets/images/jsweb.png';
 import Reactjs from '../../assets/images/reactjs.png';
 import Netlify from '../../assets/images/netlify.png';
-//              <a target="_blank" rel="noreferrer" href="https://tomb-stone.herokuapp.com/users/sign_in">
-// <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
-// <a target="_blank" rel="noreferrer" href="https://bikes-cah.herokuapp.com/">
+import Rails from '../../assets/images/rails_logo.png';
+import Heroku from '../../assets/images/heroku.png';
+import RailsLogo from '../../assets/images/railsreact.png';
 
 const Gallery = () => (
   <>
@@ -61,35 +61,36 @@ const Gallery = () => (
           </div>
           <div className="card">
             <div>
-              <img className="card-image" src={MenuLogo} alt="logo" width="200px" />
+              <img className="card-image" src={Rails} alt="logo" width="150px" />
             </div>
             <div className="card-text">
               <h2>A Rail Bank APP</h2>
-              <h3>A hotel menu built with Webpack/Vanillajs, HTML, CSS and we consume an API </h3>
-              <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
+              <h3>Ruby on Rails project that can be used for banking, hosted on Heroku </h3>
+              <a target="_blank" rel="noreferrer" href="https://tomb-stone.herokuapp.com/users/sign_in">
                 <button type="button" className="flat-button">See Live</button>
               </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/Lusindiso/Javascript-Capstone">
+              <a target="_blank" rel="noreferrer" href="https://github.com/ger619/rails-capstone">
                 <button type="button" className="flat-button">See Source</button>
               </a>
             </div>
             <div className="card-stats">
-              <img src={Webpack} alt="webpack" height="72px" />
+              <img src={Rails} alt="webpack" height="72px" />
               <img src={HTML5} alt="html 5" height="72px" />
-              <img src={CSS} alt="webpack" height="72px" />
+              <img src={Heroku} alt="webpack" height="72px" />
             </div>
           </div>
           <div className="card">
             <div>
-              <img className="card-image" src={MenuLogo} alt="logo" width="200px" />
+              <img className="card-image" src={RailsLogo} alt="logo" width="150px" />
             </div>
             <div className="card-text">
-              <h2>A Hotel Menu</h2>
-              <h3>A hotel menu built with Webpack/Vanillajs, HTML, CSS and we consume an API </h3>
-              <a target="_blank" rel="noreferrer" href="https://lusindiso.github.io/Javascript-Capstone/">
+              <h2>MotorCycle Lending App</h2>
+              {/* eslint-disable-next-line max-len */}
+              <h3>A Bike Shop App developed using React for Front-End and Ruby on Rails for Back-End.</h3>
+              <a target="_blank" rel="noreferrer" href="https://bikes-cah.herokuapp.com/">
                 <button type="button" className="flat-button">See Live</button>
               </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/Lusindiso/Javascript-Capstone">
+              <a target="_blank" rel="noreferrer" href="https://github.com/ger619/bike-shop-backend">
                 <button type="button" className="flat-button">See Source</button>
               </a>
             </div>
