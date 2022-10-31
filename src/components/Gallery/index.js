@@ -95,9 +95,9 @@ const Gallery = () => (
               </a>
             </div>
             <div className="card-stats">
-              <img src={Webpack} alt="webpack" height="72px" />
-              <img src={HTML5} alt="html 5" height="72px" />
-              <img src={CSS} alt="webpack" height="72px" />
+              <img src={Rails} alt="Rails" height="72px" />
+              <img src={Reactjs} alt="React" height="72px" />
+              <img src={Heroku} alt="Heroku" height="72px" />
             </div>
           </div>
         </div>
