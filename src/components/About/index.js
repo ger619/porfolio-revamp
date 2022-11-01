@@ -1,9 +1,8 @@
 import './index.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faReact, faHtml5, faGitAlt, faJsSquare, faCss3,
-} from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
+import { CircularProgressbarWithChildren } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
+import RailsLogo from '../../assets/images/rails_logo.png';
 
 const About = () => (
   <>
@@ -18,31 +17,27 @@ const About = () => (
         {/* eslint-disable-next-line max-len */}
         <p>Currently, I recently completed a full stack course at Microverse, an online training school where I code 8 hours a day remotely with other developers and have learned Ruby, HTML/CSS, JavaScript, communication skills, and teamwork.</p>
         {/* eslint-disable-next-line max-len */}
+        <p>I also studied a Diploma in Computer Information Systems from Kenya Methodist University.</p>
+        {/* eslint-disable-next-line max-len */}
         <p>I have also worked as a trainer, where I taught young girls from underprivileged societies HTML and CSS and life skills. This has enabled me to understand the importance of giving back as its core to your organization’s policies.</p>
       </div>
 
       <div className="stage-cube-cont">
-        <div className="cubespinner">
-          <div className="face1">
-            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+        <div>
+          <h1>Languages and Frameworks</h1>
+          <div style={{ width: 120, height: 120 }}>
+            <CircularProgressbarWithChildren value={50} style={{ color: 'yellow' }}>
+              {/* eslint-disable-next-line max-len */}
+              <img style={{ width: 72, marginTop: -5 }} src={RailsLogo} alt="React" />
+              <br />
+              <div style={{ fontSize: 12, marginTop: -20 }}>
+                <strong>50%</strong>
+              </div>
+            </CircularProgressbarWithChildren>
+            ;
           </div>
-          <div className="face2">
-            <FontAwesomeIcon icon={faHtml5} color="#5ED4F4" />
-          </div>
-          <div className="face3">
-            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-          </div>
-          <div className="face4">
-            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-          </div>
-          <div className="face5">
-            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-          </div>
-          <div className="face6">
-            <FontAwesomeIcon icon={faCss3} color="#EC4D28" />
-          </div>
-        </div>
 
+        </div>
       </div>
     </div>
     <Loader type="pacman" />
