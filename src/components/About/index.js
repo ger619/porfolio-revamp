@@ -6,6 +6,9 @@ import RailsLogo from '../../assets/images/rails_logo.png';
 import Reactjs from '../../assets/images/reactjs.png';
 import Webpack from '../../assets/images/jsweb.png';
 import Ruby from '../../assets/images/ruby.png';
+import JSicon from '../../assets/images/jsicon.png';
+import Postgres from '../../assets/images/postgres.png';
+import HTML5 from '../../assets/images/HTML5_logo.png';
 
 const About = () => (
   <>
@@ -38,20 +41,29 @@ const About = () => (
             </CircularProgressbarWithChildren>
           </div>
           <div className="lang" style={{ width: 120, height: 120 }}>
-            <CircularProgressbarWithChildren value={72} style={{ color: 'yellow' }}>
-              <img style={{ width: 62, marginTop: -5 }} src={Reactjs} alt="React" />
+            <CircularProgressbarWithChildren value={94} style={{ color: 'yellow' }}>
+              <img style={{ width: 62, marginTop: -5 }} src={HTML5} alt="HTML" />
               <br />
               <div style={{ fontSize: 12, marginTop: -15 }}>
-                <strong>72%</strong>
+                <strong>94%</strong>
               </div>
             </CircularProgressbarWithChildren>
           </div>
           <div className="lang" style={{ width: 120, height: 120 }}>
-            <CircularProgressbarWithChildren value={45} style={{ color: 'yellow' }}>
-              <img style={{ width: 62, marginTop: -5 }} src={Webpack} alt="React" />
+            <CircularProgressbarWithChildren value={65} style={{ color: 'yellow' }}>
+              <img style={{ width: 62, marginTop: -5 }} src={JSicon} alt="Javascript" />
               <br />
-              <div style={{ fontSize: 12, marginTop: -20 }}>
-                <strong>45%</strong>
+              <div style={{ fontSize: 12, marginTop: -15 }}>
+                <strong>65%</strong>
+              </div>
+            </CircularProgressbarWithChildren>
+          </div>
+          <div className="lang" style={{ width: 120, height: 120 }}>
+            <CircularProgressbarWithChildren value={55} style={{ color: 'yellow' }}>
+              <img style={{ width: 62, marginTop: -5 }} src={Postgres} alt="Postrges" />
+              <br />
+              <div style={{ fontSize: 12, marginTop: -15 }}>
+                <strong>55%</strong>
               </div>
             </CircularProgressbarWithChildren>
           </div>
