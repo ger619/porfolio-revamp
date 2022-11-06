@@ -122,11 +122,14 @@
       display: none;
     }
     nav {
+      display: flex;
       position: relative;
       height: 100%;
       top: 0;
       margin-top: 0;
+      padding-top: 3%;
       width: 100%;
+      justify-content: space-around;
       a {
         font-size: 2rem;
         line-height: 40px;
@@ -147,15 +150,20 @@
       }
     }
     ul {
-      position: absolute;
+      height: auto;
+      background: white;
+      position: fixed;
       bottom: 0;
       width: 100%;
-      display: block;
+      display: flex;
       padding: 0;
-      list-style: none;
       text-align: center;
       margin: 0;
+
       li{
+        margin: 2px;
+        display: table-cell;
+        text-align: left;
         a{
           padding: 7px 0;
           display: block;
