@@ -168,13 +168,13 @@
       display: table-cell;
 
       h1 {
-        font-size: 50px;
+        font-size: 30px;
         font-family: 'Roboto';
         color: #ffffff;
-        font-weight: 400;
-        margin-bottom: 40px;
+        font-weight: 200;
+        margin-bottom: 20px;
         position: relative;
-        left: 10px;
+        left: 5px;
 
         &:before {
           content: '<h1>';
