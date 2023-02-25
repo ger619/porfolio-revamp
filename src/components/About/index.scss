@@ -25,3 +25,9 @@
 .CircularProgressbar-background {
   fill: green;
 }
+
+@media screen and (max-width: 786px) {
+  .stage-cube-cont{
+   display: none;
+  }
+}

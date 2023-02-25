@@ -88,3 +88,12 @@
   animation: backInRight 1s 1.5s;
   animation-fill-mode: forwards;
 }
+
+@media screen and (max-width: 786px) {
+  .map-wrap {
+    display: none;
+  }
+  .info-map{
+    display: none;
+  }
+}
