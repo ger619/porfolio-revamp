@@ -1,0 +1,27 @@
+.stage-cube-cont{
+  width: 47%;
+  height: 100%;
+  top: 0;
+  padding-top: 12%;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+.lang{
+  display: inline-block;
+  margin-right: 4%;
+}
+
+.CircularProgressbar-path {
+  stroke: red;
+}
+.CircularProgressbar-trail {
+  stroke: gray;
+}
+.CircularProgressbar-text {
+  fill: yellow;
+}
+.CircularProgressbar-background {
+  fill: green;
+}
