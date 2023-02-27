@@ -7,9 +7,6 @@ const Layout = () => (
     <Sidebar />
     <div className="page">
       <Outlet />
-      <span className="tags bottom-tags">&lt;/body&gt;</span>
-
-      <span className="bottom-tag-html">&lt;/html&gt;</span>
     </div>
   </>
 );
