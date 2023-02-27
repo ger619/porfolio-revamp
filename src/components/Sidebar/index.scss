@@ -1,9 +1,11 @@
+// Navbar right
 .nav-bar {
-  background: #ffffff;
-  width: 75px;
+  background: #9e1b1d;
+  width: 4%;
   height: 100%;
   position: absolute;
   top: 0;
+  right: 0;
   z-index: 3;
   min-height: 500px;
   .logo{
@@ -21,12 +23,12 @@
     text-align: center;
     position: absolute;
     height: 210px;
-    top: 50%;
+    top: 20%;
     margin-top: -120px;
     width: 100%;
     a {
       font-size: 3rem;
-      color: #225a71;
+      color: #ffffff;
       display: block;
       line-height: 51px;
       height: 51px;
@@ -36,7 +38,7 @@
         transition: all 0.3s ease-out;
       }
       &:hover {
-          color: #225a71;
+          color: #ffffff;
           svg {
             opacity: 0;
           }
@@ -53,35 +55,35 @@
         display: block;
         width: 100%;
         text-align: center;
-        #background: #acd0e0;
+        #background: #ffffff;
         opacity: 0;
         transition: all 0.3s ease-out;
       }
       &:first-child{
         &::after {
-          content: 'HOME';
+          content: 'CALL';
         }
       }
     }
     a.about{
       &::after {
-        content: 'ABOUT';
+        content: 'EMAIL';
       }
     }
     a.gallery{
       &::after {
-        content: 'GALLERY';
+        content: 'INTERNET';
       }
     }
     a.contact{
       &::after {
-        content: 'CONTACT';
+        content: 'INSTAGRAM';
       }
     }
 
     a.active{
       svg{
-        color: #225a71;
+        color: #ffffff;
       }
     }
   }
@@ -106,6 +108,16 @@
       }
     }
   }
+
+}
+.nav-bar-left {
+  background: #9e1b1d;
+  width: 3%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  min-height: 500px;
 
 }
 
