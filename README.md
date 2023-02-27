@@ -1,6 +1,6 @@
-# Abol Ger Portfolio 
+# Onisa Designs Websote
 
-> This is a portfolio where I display my previous and future projects.
+> This is a website for onisa designs
 
 > set up a new repository and prepare it for development using best practices (e.g. linters).
 
