@@ -10,6 +10,7 @@ const Home = () => (
         <br />
       </div>
       <Loader type="pacman" />
+
     </div>
 
   </>
