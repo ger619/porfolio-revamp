@@ -11,10 +11,23 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.gallery-grid{
-  display: flex;
-  column-gap: 12px;
+@media screen and (max-width: 768px) {
+  .gallery-grid{
+    display: block;
+    column-gap: 12px;
+    colume-count: 1;
+    row-gap: 12px;
+    overflow: hidden;
+  }
 }
+
+@media screen and (min-width: 768px) {
+  .gallery-grid {
+    display: flex;
+    column-gap: 12px;
+  }
+}
+
 .card-image{
   grid-area: image;
   background-size: cover;

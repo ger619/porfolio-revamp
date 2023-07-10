@@ -29,6 +29,7 @@
   transform-style: preserve-3d;
   animation: fadeIn 1s ease-in-out forwards;
   animation-delay: 1s;
+  overflow: auto;
 }
 
 .about-page, .contact-page, .gallery-page, .home-page{
