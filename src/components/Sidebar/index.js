@@ -5,7 +5,7 @@ import {
   faHome, faUser, faEnvelope, faBriefcase,
 } from '@fortawesome/free-solid-svg-icons';
 import {
-  faLinkedin, faGithub, faTwitter, faAngellist, faFacebookF,
+  faLinkedin, faGithub, faTwitter, faAngellist, faMedium,
 } from '@fortawesome/free-brands-svg-icons';
 
 import LogoGer from '../../assets/images/Abolger.png';
@@ -36,6 +36,11 @@ const Sidebar = () => (
         </a>
       </li>
       <li>
+        <a target="_blank" rel="noreferrer" href="https://medium.com/@abolger254">
+          <FontAwesomeIcon icon={faMedium} color="#acd0e0" />
+        </a>
+      </li>
+      <li>
         <a target="_blank" rel="noreferrer" href="https://angel.co/u/david-abol-ger">
           <FontAwesomeIcon icon={faAngellist} color="#acd0e0" />
         </a>
@@ -48,9 +53,6 @@ const Sidebar = () => (
       <li>
         <a target="_blank" rel="noreferrer" href="https://twitter.com/ger_abol">
           <FontAwesomeIcon icon={faTwitter} color="#acd0e0" />
-        </a>
-        <a target="_blank" rel="noreferrer" href="https://twitter.com/ger_abol">
-          <FontAwesomeIcon icon={faFacebookF} color="#acd0e0" />
         </a>
       </li>
     </ul>
