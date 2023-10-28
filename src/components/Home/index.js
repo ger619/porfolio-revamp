@@ -15,9 +15,9 @@ const Home = () => (
           <img src={LogoGer} alt="developer" />
           bol
           <br />
-          Fullstack Developer
+          Project Manager/ Fullstack Developer
         </h1>
-        <h2>FrontEnd Developer (React)/ BackEnd Developer (Ruby on Rails)</h2>
+        <h2>Project Manager/ FrontEnd Developer (React)/ BackEnd Developer (Ruby on Rails)</h2>
         <h2>Diploma in Computer Information Systems</h2>
         <Link to="/contact" className="flat-button">CONTACT ME</Link>
         <Link to="/CV.pdf" className="flat-button" target="_blank">DOWNLOAD CV</Link>
