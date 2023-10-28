@@ -17,11 +17,11 @@ const About = () => (
       <div className="text-zone">
         <h1>About Me</h1>
         {/* eslint-disable-next-line max-len */}
-        <p>My name is Abol Ger, my goal as a web developer is to improve my skills to be able successfully and in the shortest time period to write high-quality code with high professionalism.</p>
+        <p>My name is Abol Ger, my goal as a project manager and web developer is to improve my skills to be able successfully and in the shortest time period to provide high-quality solutions.</p>
         {/* eslint-disable-next-line max-len */}
-        <p>I previously worked as an android and software developer where I learned how to use Android, HTML/CSS, Ruby on Rails. I developed several websites.</p>
+        <p>I am currently employed as a project manager and software developer, where I have gained experience using Flutter and Ruby on Rails. I also have a track record of developing more than five websites.</p>
         {/* eslint-disable-next-line max-len */}
-        <p>Currently, I recently completed a full stack course at Microverse, an online training school where I code 8 hours a day remotely with other developers and have learned Ruby, HTML/CSS, JavaScript, communication skills, and teamwork.</p>
+        <p>I completed a full-stack course at Microverse, an online training school, where I remotely worked on solutions for eight hours a day alongside other developers. This experience helped me improve my coding skills, documentation, report writing, as well as my communication and teamwork.</p>
         {/* eslint-disable-next-line max-len */}
         <p>I also studied a Diploma in Computer Information Systems from Kenya Methodist University.</p>
         {/* eslint-disable-next-line max-len */}

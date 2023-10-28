@@ -87,7 +87,7 @@ const Gallery = () => (
               <h2>MotorCycle Lending App</h2>
               {/* eslint-disable-next-line max-len */}
               <h3>A Bike Shop App developed using React for Front-End and Ruby on Rails for Back-End.</h3>
-              <a target="_blank" rel="noreferrer" href="https://bikes-cah.herokuapp.com/">
+              <a target="_blank" rel="noreferrer" href="https://bike-shop-cmlx.netlify.app/">
                 <button type="button" className="flat-button">See Live</button>
               </a>
               <a target="_blank" rel="noreferrer" href="https://github.com/ger619/bike-shop-backend">
