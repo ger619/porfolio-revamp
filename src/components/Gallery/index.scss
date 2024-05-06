@@ -1,24 +1,39 @@
-.card {
-  display: grid;
-  grid-template-columns: 280px;
-  #grid-template-rows: 210px 210px 80px;
-  grid-template-areas:
-    "image"
-    "text"
-    "stat";
-  border-radius: 10px;
-  background: #e6e6e6;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
 
 @media screen and (max-width: 768px) {
   .gallery-grid {
     display: block;
-    column-gap: 12px;
     colume-count: 1;
     row-gap: 12px;
     overflow: hidden;
+    margin-top: 380%;
+  }
+  .card {
+    display: grid;
+    #grid-template-rows: 210px 210px 80px;
+    border-radius: 10px;
+    background: #e6e6e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 10%;
+
+  }
+  .card {
+    display: grid;
+    #grid-template-rows: 210px 210px 80px;
+    grid-template-areas:
+    "image"
+    "text"
+    "stat";
+    border-radius: 10px;
+    background: #e6e6e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .card-text {
+    grid-area: text;
+    padding: 10px;
   }
 }
 
@@ -26,6 +41,23 @@
   .gallery-grid {
     display: flex;
     column-gap: 12px;
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: 280px;
+    #grid-template-rows: 210px 210px 80px;
+    grid-template-areas:
+    "image"
+    "text"
+    "stat";
+    border-radius: 10px;
+    background: #e6e6e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .card-text {
+    grid-area: text;
   }
 }
 
@@ -40,9 +72,6 @@
   padding-top: 10px;
 }
 
-.card-text {
-  grid-area: text;
-}
 
 .card-stats {
   grid-area: stat;
@@ -64,7 +93,7 @@ h3 {
   letter-spacing: 4px;
   font-family: sans-serif;
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 10px 15px;
   border: 1px solid #fff;
   border-radius: 4px;
   margin-top: 25px;
