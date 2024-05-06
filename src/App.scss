@@ -10,7 +10,7 @@ $primary-color: #ffd700;
 
 @font-face {
   font-family: 'Aurore';
-  src: url('assets/La_Belle_Aurore/La Belle Aurore V2.woff2') format('woff2');
+  src: url('assets/La_Belle_Aurore/La-Belle-Aurore-V2.woff2') format('woff2');
 }
 
 @font-face {
@@ -20,7 +20,7 @@ $primary-color: #ffd700;
 
 input,
 textarea {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 .loader-active {
