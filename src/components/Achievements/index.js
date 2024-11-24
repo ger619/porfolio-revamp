@@ -1,5 +1,7 @@
 import './index.css';
 import Loader from 'react-loaders';
+// eslint-disable-next-line import/no-named-as-default,import/no-named-as-default-member
+import Photos from '../Photos';
 
 const Achievements = () => (
   <>
@@ -19,11 +21,11 @@ const Achievements = () => (
 
       <div className="stage-cube-cont">
         <div>
-          <h1>Photo</h1>
+          <Photos />
         </div>
       </div>
     </div>
-    <Loader type="pacman" />
+    <Loader type="pacman" active />
   </>
 );
 
