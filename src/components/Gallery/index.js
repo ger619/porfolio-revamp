@@ -10,6 +10,8 @@ import Heroku from '../../assets/images/heroku.png';
 import RailsLogo from '../../assets/images/railsreact.png';
 import Tailwind from '../../assets/images/tailwindcss.png';
 import Render from '../../assets/images/render.png';
+import Postgres from '../../assets/images/postgres.png';
+import Ubuntu from '../../assets/images/ubuntu.png';
 
 const Gallery = () => (
   <>
@@ -100,6 +102,28 @@ const Gallery = () => (
               <img src={Heroku} alt="Heroku" height="72px" />
             </div>
           </div>
+          <div className="card">
+            <div>
+              <img className="card-image" src={RailsLogo} alt="logo" width="150px" />
+            </div>
+            <div className="card-text">
+              <h2>Taskbridge App</h2>
+              {/* eslint-disable-next-line max-len */}
+              <h3>TaskBride streamlines ticketing, project management, collaboration, & task tracking.</h3>
+              <a target="_blank" rel="noreferrer" href="https://taskbridge.craftsilicon.com/users/sign_in">
+                <button type="button" className="flat-button">See Live</button>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/Lifeline-Solutions/TaskBridgeApp">
+                <button type="button" className="flat-button">See Source</button>
+              </a>
+            </div>
+            <div className="card-stats">
+              <img src={Rails} alt="Rails" height="72px" />
+              <img src={Postgres} alt="React" height="72px" />
+              <img src={Ubuntu} alt="Heroku" height="72px" />
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
