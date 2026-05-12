@@ -3,13 +3,13 @@ import * as React from 'react';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 // eslint-disable-next-line camelcase
-import Gallery_1 from '../../assets/images/gallery-1.jpg';
+import Gallery1 from '../../assets/images/gallery-1.jpg';
 // eslint-disable-next-line camelcase
-import Gallery_2 from '../../assets/images/gallery-2.jpg';
+import Gallery2 from '../../assets/images/gallery-2.jpg';
 // eslint-disable-next-line camelcase
-import Gallery_3 from '../../assets/images/gallery-3.jpg';
+import Gallery3 from '../../assets/images/gallery-3.jpg';
 // eslint-disable-next-line camelcase
-import Gallery_4 from '../../assets/images/gallery-4.jpg';
+import Gallery4 from '../../assets/images/gallery-4.jpg';
 
 export default function Photos() {
   const [open, setOpen] = React.useState(false);
@@ -23,10 +23,10 @@ export default function Photos() {
         open={open}
         close={() => setOpen(false)}
         slides={[
-          { src: Gallery_1, width: 1920, height: 1080 },
-          { src: Gallery_2, width: 1920, height: 1080 },
-          { src: Gallery_3, width: 1920, height: 1080 },
-          { src: Gallery_4, width: 1920, height: 1080 },
+          { src: Gallery1, width: 1920, height: 1080 },
+          { src: Gallery2, width: 1920, height: 1080 },
+          { src: Gallery3, width: 1920, height: 1080 },
+          { src: Gallery4, width: 1920, height: 1080 },
         ]}
       />
     </>
