@@ -19,7 +19,6 @@ export default function Photos() {
       <button type="button" onClick={() => setOpen(true)}>
         Open Lightbox
       </button>
-
       <Lightbox
         open={open}
         close={() => setOpen(false)}
@@ -28,7 +27,6 @@ export default function Photos() {
           { src: Gallery_2, width: 1920, height: 1080 },
           { src: Gallery_3, width: 1920, height: 1080 },
           { src: Gallery_4, width: 1920, height: 1080 },
-
         ]}
       />
     </>
